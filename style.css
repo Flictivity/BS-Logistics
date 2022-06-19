@@ -326,7 +326,8 @@
 #btnCalc:hover
 {
     cursor: pointer;
-    background: linear-gradient(90deg, #ff8d23 0%, #ddac2f 100%);
+    transform: scale(1.1);
+    transition-duration: 0.4s;
 }
 /*-------------------------------*/
 
@@ -397,7 +398,8 @@
 #sub:hover
 {
     cursor: pointer;
-    background:#161615 ;
+    transform: scale(1.1);
+    transition-duration: 0.4s;
 }
 .subAdd
 {
