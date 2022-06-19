@@ -224,16 +224,16 @@
 }
 .calc
 {
-    width: 1000px;
-    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 #headCalc
 {
     padding-top: 20px;
     text-align: center;
     color: white;
+    width: 100%;
 }
 .inputData
 {
@@ -326,6 +326,7 @@
 #btnCalc:hover
 {
     cursor: pointer;
+    background: linear-gradient(90deg, #ff8d23 0%, #ddac2f 100%);
 }
 /*-------------------------------*/
 
@@ -391,11 +392,12 @@
     height: 48px;
     margin-left: 20px;
     background: linear-gradient(77.82deg, #272521 0%, #262523 100%);
-    font-size: 30px;
+    font-size: 14px;
 }
 #sub:hover
 {
     cursor: pointer;
+    background:#161615 ;
 }
 .subAdd
 {
@@ -409,7 +411,7 @@
 }
 .inputSubData
 {
-    display: flex;
+    display: inline-block;
 }
 .sub p
 {
@@ -679,19 +681,27 @@
     }
     .navFooter
     {
+        width: 100%;
         margin-top: 0;
         margin-left: 20px;
-        margin-right: 20px;
+        margin-right: 0;
         display: flex;
         flex-wrap: wrap;
     }
     .contacts
     {
         padding-bottom: 0px;
+        margin-right: 0;
+        width: 100%;
     }
 }
 @media(max-width:480px)
 {
+    .weiVol
+    {
+        margin-top: 8px;
+        font-size: 16px;
+    }
     .nav
     {
         height: 73px;
