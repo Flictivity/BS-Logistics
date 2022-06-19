@@ -1,0 +1,873 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+/* ---Header---- */
+.header
+{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 142px;
+}
+#logo
+{
+    width: 30%;
+    height: 120px;
+    margin-left: 130px;
+}
+.nav a
+{
+    color: black;
+    text-decoration: none;
+}
+.nav a:hover
+{
+    text-decoration: underline;
+}
+.nav
+{
+    position: absolute;
+    line-height: 28px;
+    color: black;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    height: 29px;
+    font-size: 24px;
+    right: 130px;
+    top: 56px;
+}
+.nav li
+    {
+        margin-bottom: 5px;
+        display: inline-block;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+.nav ul
+{
+    list-style-type: none;
+    box-sizing: border-box;
+    text-align: center;
+    text-align: justify!important;
+    text-align-last: justify;
+}
+/*-------------------------------*/
+/*---About---*/
+.about
+{
+    width: 100%;
+    height: 748px;
+    background: url(media/img2.png) no-repeat 0 0 / cover;
+    margin-bottom: 20px;
+}
+.block_about
+{
+    display: flex;
+    width: 90%;
+    height: 484px;
+    margin: 0 auto;
+    margin-top: 45px;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 30px;
+}
+#h1_about
+{
+    color: #FFFFFF;
+    height: 59px;
+    padding-top: 28px;
+    text-align: center;
+}
+#text_about
+{
+    padding: 6px;
+    margin-top: 10px;
+    width: 100%;
+    height: 426px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;    
+    line-height: 35px;
+}
+#tchImg
+{
+    width: 452px;
+    height: 405px;
+    margin-top: 39px;
+    margin-left: 28px;
+}
+/*-------------------------------*/
+/*Orders*/
+.orders
+{
+    margin-bottom: 20px;
+}
+.ordersLine
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#ordersHead
+{
+    text-align: center;
+    color: #565656;
+}
+.order
+{
+    width: 780px; 
+    height: 400px;
+    border-radius: 20px;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+.info
+{
+    display: flex;
+}
+#order1
+{
+    background: url(media/orders/order1.png) no-repeat 0 0 / cover;
+}
+#order2
+{
+    background: url(media/orders/order2.png) no-repeat 0 0 / cover;
+}
+#order3
+{
+    background: url(media/orders/order3.png) no-repeat 0 0 / cover;
+}
+#order4
+{
+    background: url(media/orders/order4.png) no-repeat 0 0 / cover;
+}
+.icon img
+{
+    width: 127px;
+    height: 127px;
+}
+.icon
+{
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.infoText
+{
+    background: rgba(241, 242, 245, 0.91);
+    border-radius: 20px;
+    width: 70%;
+    height: 220px;
+    color: #585858;
+    margin-top: 11px;
+    margin-left: 37px;
+    padding: 10px;
+}
+.infoText h6
+{
+    width: 470px;
+    height: 30px;
+    font-weight: 400;
+    font-size: 34px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.infoText p
+{
+    width: 470px;
+    height: 200px;  
+    font-weight: 300;
+    font-size: 26px;
+    padding: 10px;
+}
+.result
+{
+    width: 368px;
+    height: 75px;
+    background: rgba(241, 242, 245, 0.91);
+    border-radius: 15px;
+    text-align: left;
+    margin-left: 16px;
+    margin-top: 50px;
+}
+.result h6
+{
+    margin-left: 19px;
+    margin-top: 8px;
+    width: 329px;
+    height: 28px;
+    font-weight: 400;
+    font-size: 24px;
+    color: #585858;
+}
+/*-------------------------------*/
+/*Calc*/
+.calcBlock
+{
+    width: 100%;
+    height: 450px;
+    background: 
+    linear-gradient(rgba(103, 103, 103, 0.5), rgba(103, 103, 103, 0.5)),
+    url(media/img3.png) no-repeat 0 0 / cover;
+}
+.calc
+{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+#headCalc
+{
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+.inputData
+{
+    color: white;
+    font-weight: 300;
+    line-height: 28px;
+    font-style: normal;
+    font-size: 24px;
+
+    width: 500px;
+    justify-content: center;
+}
+.inputData p
+{
+    margin-bottom: 6px;
+    margin-left: 6px;
+}
+.inputText, .inputWeiVol
+{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 8px;
+}
+.inputText:focus, .inputWeiVol:focus
+{
+    outline: none !important;
+}
+.inputWeiVol
+{
+    width: 240px;
+}
+.weiVol
+{
+    display: flex;
+}
+.vol
+{
+    margin-left: 20px;
+}
+.inputParams
+{
+    display: flex;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.orderTypes
+{
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 36px;
+}
+.orderTypes input
+{
+    width: 55px;
+    height: 50px;
+    border-radius: 20px;
+}
+.orderType
+{
+    margin-bottom: 30px;
+}
+.orderType
+{
+    color:  white;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 28px;
+    font-style: normal;
+    font-size: 24px;
+}
+#btnCalc
+{
+    width: 580px;
+    height: 63px;
+    background: linear-gradient(90deg, #FF7A00 0%, #F8C136 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    color: white;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 53px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+#btnCalc:hover
+{
+    cursor: pointer;
+}
+/*-------------------------------*/
+
+/*Reviews*/
+.reviews
+{
+    margin-top: 20px;
+}
+.reviewsBlock
+{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+#headReviews
+{
+    text-align: center;
+    color: #565656;
+}
+.avatar
+{
+    width: 180px;
+    height: 182px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.avatar img
+{
+    border-radius: 50%;
+    width: 180px;
+    height: 182px;
+}
+.review
+{
+    width: 500px;
+    height: 450px;
+    text-align: center;
+    padding: 16px;
+    border: 1px solid #BDBDBD;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+    margin: 20px;
+    font-size: 20px;
+}
+/*-------------------------------*/
+/*Footer*/
+.footer
+{
+    background: linear-gradient(77.82deg, #272521 0%, #262523 100%);
+    color: white;
+}
+#email
+{
+    width: 580px;
+    height: 48px;
+}
+#sub
+{
+    color: white;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    width: 380px;
+    height: 48px;
+    margin-left: 20px;
+    background: linear-gradient(77.82deg, #272521 0%, #262523 100%);
+    font-size: 30px;
+}
+#sub:hover
+{
+    cursor: pointer;
+}
+.subAdd
+{
+    margin-left: 130px;
+}
+#headSub
+{
+    line-height: 59px;
+    font-weight: 400;
+    font-size: 40px;
+}
+.inputSubData
+{
+    display: flex;
+}
+.sub p
+{
+    margin-bottom: 6px;
+    margin-left: 6px;
+}
+.contacts
+{
+    margin-top: 10px;
+    margin-left: 130px;
+    padding-bottom: 125px;
+}
+.contacts ul li
+{
+    list-style-type: none;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    margin-top: 10px;
+}
+.navFooter a
+{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+}
+.navFooter a:hover
+{
+    text-decoration: underline;
+}
+.navFooter
+{
+    line-height: 28px;
+    color: black;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    height: 29px;
+    font-size: 24px;
+    width: 620px;
+    margin-right: 130px;
+    margin-top: 80px;
+}
+.navFooter li
+{
+    margin-bottom: 5px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.navFooter ul
+{
+    list-style-type: none;
+    box-sizing: border-box;
+    text-align: center;
+    text-align: justify!important;
+    text-align-last: justify;
+}
+.links
+{
+    display: flex;
+    justify-content: space-between;
+}
+/*-------------------------------*/
+@media(min-width: 1150px)
+{
+    #logo
+    {
+        width: 300px;
+    }
+    .nav li
+    {
+        margin-bottom: 5px;
+        display: inline-block;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .nav
+    {
+        height: 29px;
+        font-size: 24px;
+        right: 130px;
+        top: 56px;
+    }
+}
+@media(min-width:401px) and (max-width: 1149px)
+{
+    .nav
+    {
+        top: 56px;
+        right: 30px;
+        font-size: 16px;
+        height: 29px;
+    }
+    #logo
+    {
+        left: 30px;
+    }
+    .nav li
+    {
+        margin-bottom: 5px;
+        display: inline-block;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #text_about
+    {
+        margin: 0;
+        font-size: 18px;    
+    }
+    #tchImg
+    {
+        width: 352px;
+        height: 305px;
+        margin-top: 69px;
+        margin-left: 18px;
+    }
+    .inputData
+    {
+
+        width: 300px;
+        margin-left: 150px;
+    }
+    .inputWeiVol
+    {
+        width: 140px;
+    }
+    #btnCalc
+    {
+        width: 500px;
+    }
+    #email
+    {
+        width: 380px;
+    }
+    .subAdd
+    {
+        margin-left: 30px;
+    }
+    .contacts
+    {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    #sub
+    {
+        width: 200px;
+        margin-right: 20px;
+    }
+}
+@media(max-width:770px)
+{
+    .nav li
+    {
+        margin-bottom: 5px;
+        display: block;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .nav
+    {
+        top: 6px;
+    }
+    .tchImg
+    {
+        display: none;
+    }
+    #h1_about
+    {
+        font-size: 25px;
+    }
+    #text_about
+    {
+        padding: 2px;
+        text-align: center;
+    }
+    .infoText p
+    {
+        display: none;
+    }
+    .result
+    {
+        margin-left: 110px;
+        width: 305px;
+        height: 66px;
+    }
+    .result h6
+    {
+        font-size: 20px;
+    }
+    .infoText
+    {
+        width: 305.21px;
+        height: 66px;
+        margin-right: 10px;
+    }
+    .infoText h6
+    {
+        font-size: 22px;
+        width: 305.21px;
+        height: 66px;
+        text-align: center;
+    }
+    .info
+    {
+        height: 100px;
+    }
+    .icon
+    {
+        margin-left: 25px;
+        margin-top: 25px;
+        width: 61px;
+        height: 77px;
+    }
+    .icon img
+    {
+        width: 65px;
+        height: 60px;
+    }
+    .order
+    {
+        width: 440px; 
+        height: 258px;
+    }
+    .inputData
+    {
+        width: 200px;
+        font-size: 18px;
+        margin-left: 20px;
+    }
+    .inputWeiVol
+    {
+        width: 50px;
+        margin: 0;
+    }
+    #headCalc
+    {
+        font-size: 20px;
+    }
+    .orderType
+    {
+        font-size: 16px;
+    }
+    input.orderTypeSelect 
+    {
+        width: 20px;
+        height: 20px;
+    }
+    #btnCalc
+    {
+        width: 250px;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .links
+    {
+        display:inline-block;
+    }
+    .navFooter a
+    {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .navFooter
+    {
+        margin-top: 0;
+        margin-left: 20px;
+        margin-right: 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contacts
+    {
+        padding-bottom: 0px;
+    }
+}
+@media(max-width:480px)
+{
+    .nav
+    {
+        height: 73px;
+        top: 30px;
+        right: 30px;
+        font-size: 16px;
+        font-weight: lighter;
+    }
+    .nav li
+    {
+        margin:1px;
+        height: 13px;
+    }
+    #logo
+    {
+        width: 120px;
+        height: 100px;
+        position: absolute;
+        top: 19px;
+        margin-left: 30px;
+    }
+    #text_about
+    {
+        font-size: 14px;
+        padding: 2px;
+        text-align: center;
+    }
+    #h1_about
+    {
+        font-size: 20px;
+        padding-top: 30px;
+        height: 59px;
+    }
+    .orders
+    {
+        display: inline-block;
+        margin: 0 auto;
+    }
+    .result
+    {
+        padding-top: 8px;
+        margin-left: 100px;
+        width: 180px;
+        height: 50px;
+        margin-top: 20px;
+    }
+    .result h6
+    {
+        font-size: 12px;
+        width: 180px;
+        height: 20px;
+        margin-top: 0;
+        margin-left: 10px;
+    }
+    .infoText
+    {
+        width: 305.21px;
+        height: 40px;
+        margin-right: 10px;
+        margin-left: 15px;
+        margin-bottom: 0;
+        padding: 0;
+    }
+    .infoText h6
+    {
+        font-size: 12px;
+        width: 180px;
+        height: 40px;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        margin-top: 10px;
+    }
+    .info
+    {
+        width: 194.6px;
+        height: 56px;
+    }
+    .icon
+    {
+        margin-left: 25px;
+        margin-top: 25px;
+        width: 61px;
+        height: 50px;
+        font-size: 20px;
+    }
+    .icon img
+    {
+        width: 65px;
+        height: 60px;
+    }
+    .order
+    {
+        width: 290px;
+        height: 158px;
+    }
+    #ordersHead
+    {
+        font-size: 30px;
+    }
+
+    .inputData
+    {
+        width: 100px;
+        font-size: 16px;
+        margin-left: 10px;
+    }
+    .inputWeiVol
+    {
+        width: 40px;
+        margin: 0;
+    }
+    #headCalc
+    {
+        font-size: 20px;
+    }
+    .orderType
+    {
+        font-size: 16px;
+    }
+    .orderTypes
+    {
+        margin-left: 20px;
+    }
+    input.orderTypeSelect 
+    {
+        width: 20px;
+        height: 20px;
+        border-radius: 10px;
+    }
+    .review
+    {
+        font-size: 18px;
+    }
+    .inputSubData
+    {
+        display: inline-block;
+    }
+    #sub
+    {
+        margin-top: 10px;
+        margin-left: 0;  
+        width: 120px; 
+        font-size: 16px;
+    }
+    #email
+    {
+        width: 268px;
+    }
+    .subAdd
+    {
+        margin-left: 30px;
+    }
+    .contacts
+    {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .contacts ul li 
+    {
+        font-size: 14px;
+    }
+    .navFooter li
+    {
+        display: block;
+    }
+    .navFooter
+    {
+        height: 120px;
+        margin-bottom: 20px;
+    }
+}
+@media(max-width:300px)
+{
+    *{
+        display: none;
+    }
+}
+

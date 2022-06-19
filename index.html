@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BS-Logistics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="logo"><img src="media/Logo.png" alt="Logo" id="logo"></div>
+            <div class="nav">
+                <ul>
+                    <li><a href="https://www.yandex.ru">Поиск</a></li>
+                    <li><a href="#reviews">Отзывы</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                    <li><a href="#Calc">Расчет стоимости</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class=about>
+            <h1 id="h1_about">У вас есть груз? У нас есть танспорт</h1>
+            <div class="block_about">
+                <div class="tchImg"><img src="media/img1.png" alt="Tech" id="tchImg"></div>
+                <p id="text_about">ГК «BS-Logistics» основана в 2001 году. Один из крупнейших
+                    транспортно-логистический операторов России: занимает 3 место по объему
+                    складских площадей в регионах РФ (Knight Frank, 2021) и в рейтинге служб доставки в Москве («RAEX-Аналитика», 2020 г.). «BS-Logistics» – в перечне системообразующих организаций страны (Минтранс РФ) признан «Надежным перевозчиком России» в 2021 г. согласно рейтингу
+                    Национального союза экспертов.
+                </p>
+            </div>
+        </div>
+        <div class="orders">
+            <div><h1 id="ordersHead">Успешные заказы наших водителей</h1></div>
+            <div class="ordersLine">
+                <div class="order" id="order1">
+                    <div class="info">
+                        <div class="icon">
+                            <img src="media/orders/icon.png" alt="">
+                            <p>Игорь</p>
+                        </div>
+                        <div class="infoText">
+                            <h6>Казань - Краснодар</h6>
+                            <p>Перевозка вещей офисной компании из Казани в Краснодар.</p>
+                        </div>
+                    </div>
+                    <div class="result">
+                        <h6>Пройденный путь: 1804 км.</h6>
+                        <h6>Оплаченная сумма: 58 340 р.</h6>
+                    </div>
+                </div>
+                
+                <div class="order" id="order2">
+                    <div class="info">
+                        <div class="icon">
+                            <img src="media/orders/icon.png" alt="">
+                            <p>Олег</p>
+                        </div>
+                        <div class="infoText">
+                            <h6>Москва - Казань</h6>
+                            <p>Доставка личных вещей клиента из Москвы в Казань с осуществлением погрузки и выгрузки.</p>
+                        </div>
+                    </div>
+                    <div class="result">
+                        <h6>Пройденный путь: 824 км.</h6>
+                        <h6>Оплаченная сумма: 16 660 р.</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ordersLine">
+                <div class="order" id="order3">
+                    <div class="info">
+                        <div class="icon">
+                            <img src="media/orders/icon.png" alt="">
+                            <p>Олег</p>
+                        </div>
+                        <div class="infoText">
+                            <h6>Рига - Пермь</h6>
+                            <p>Доставка оборудования ветеринарной клиники из Риги в Перьм.</p>
+                        </div>
+                    </div>
+                    <div class="result">
+                        <h6>Пройденный путь: 2354 км.</h6>
+                        <h6>Оплаченная сумма: 87 000 р.</h6>
+                    </div>
+                </div>
+    
+                <div class="order" id="order4">
+                    <div class="info">
+                        <div class="icon">
+                            <img src="media/orders/icon.png" alt="">
+                            <p>Максим</p>
+                        </div>
+                        <div class="infoText">
+                            <h6>Омск - Москва</h6>
+                            <p>Доставка личных вещей клиента из Омска в Москву с осуществлением погрузки и выгрузки.</p>
+                        </div>
+                    </div>
+                    <div class="result">
+                        <h6>Пройденный путь: 2716 км.</h6>
+                        <h6>Оплаченная сумма: 89 000 р.</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="calcBlock">
+            <a name="Calc"><h1 id="headCalc">Здесь вы можете рассчитать стоимость вашего груза</h1></a>
+            <div class="calc">
+                <form action="" class="inputParams">
+                    <div class="inputData">
+                        <p>Откуда</p>
+                        <input type="text" class="inputText">
+                        <p>Куда</p>
+                        <input type="text" class="inputText">
+                        <div class="weiVol">
+                            <div class="wei">
+                                <p>Масса, кг</p>
+                                <input type="text" class="inputWeiVol">
+                            </div>
+                            <div class="vol">
+                                <p>Объем, м³</p>
+                                <input type="text" class="inputWeiVol">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="orderTypes">
+                        <div class="orderType">
+                            <input type="checkbox" class="orderTypeSelect">
+                            <label for="orderTypeSelect">Негабаритный груз</label>
+                        </div>
+
+                        <div class="orderType">
+                            <input type="checkbox" class="orderTypeSelect">
+                            <label for="orderTypeSelect">Забрать по адресу</label>
+                        </div>
+
+                        <div class="orderType">
+                            <input type="checkbox" class="orderTypeSelect">
+                            <label for="orderTypeSelect">Доставить по адресу</label>
+                        </div>
+                    </div>
+                    
+                </form>
+            </div>
+                <input type="submit" value="Рассчитать" id="btnCalc">
+        </div>
+        <div class="reviews">
+            <a name="reviews"><h1 id="headReviews">Отзывы наших клиентов</h1></a>
+            <div class="reviewsBlock">
+                <div class="review">
+                    <div class="avatar">
+                        <img src="media/reviews/rw1.png" alt="">
+                    </div>
+                    <div class="rwText">
+                        <p>Спасибо огромное Олегу! Пунктуальный, аккуратный, ответственный. Приехал в назначенное время. Помог с загрузкой/разгрузкой. Груз привёз в сохранности и целости. Рекомендую его (из 10 баллов ставлю 10).</p>
+                    </div>
+                </div>
+                <div class="review">
+                    <div class="avatar">
+                        <img src="media/reviews/rw2.png" alt="">
+                    </div>
+                    <div class="rwText">
+                        <p>Все отлично и быстро. Вечером погрузили утром разгрузили, но уже в 330км от места загрузки. Рекомендую!!!!</p>
+                    </div>
+                </div>
+                <div class="review">
+                    <div class="avatar">
+                        <img src="media/reviews/rw3.png" alt="">
+                    </div>
+                    <div class="rwText">
+                        <p>Всё замечательно, груз доставлен. Водитель хороший, отзывчивый. Все как договаривались.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="subAdd">
+                <h1 id="headSub">Подписаться на закрытые акции</h1>
+                <div class="sub">
+                    <p>Email</p>
+                    <div class="inputSubData">
+                        <form action="" >
+                            <input type="email" class="inputText" id="email">
+                            <input type="submit" value="Подписаться" id="sub">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="links">
+                <div class="contacts">
+                    <ul>
+                        <a name="contacts"><li>Телефон: +7 (843) 567 - 11 - 99</li></a>
+                        <li>Telegramm: @bslog_official</li>
+                        <li>Email: office@bslogistics.at</li>
+                    </ul>
+                </div>
+                <div class="navFooter">
+                    <ul>
+                        <li><a href="https://www.yandex.ru">Поиск</a></li>
+                        <li><a href="#reviews">Отзывы</a></li>
+                        <li><a href="#contacts">Контакты</a></li>
+                        <li><a href="#Calc">Расчет стоимости</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div> 
+    </div>
+</body>
+</html>
