@@ -160,8 +160,8 @@
     font-weight: 400;
     font-size: 30px;
     line-height: 35px;
-    margin-left: 40px;
-    margin-top: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 .infoText
 {
@@ -171,7 +171,7 @@
     height: 220px;
     color: #585858;
     margin-top: 11px;
-    margin-left: 37px;
+    margin-left: 42px;
     padding: 10px;
 }
 .infoText h6
